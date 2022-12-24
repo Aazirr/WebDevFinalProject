@@ -1,0 +1,130 @@
+#heading-border{
+  font-family: 'Trebuchet MS';
+  font-weight: bold;
+  font-size:50px;
+  color: rgba(83, 64, 40, 1);
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
+  display: block;
+  text-align: center;
+  padding-left: 50px;
+}
+
+#bar{
+  font-size: 100px;
+  width: 40%;
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 100px;
+}
+
+#picture-box{
+  border: 3px solid;
+  border-color: rgb(173, 14, 14);
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8);
+  width: 500px;
+  height: 500px;
+  display: block;
+  margin-left: 100px;
+  text-align: center;
+  font-size: 35px;
+  float: left;
+}
+
+#des-box{
+  border: 3px solid;
+  border-color: rgb(173, 14, 14);
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: left;
+  width: 1000px;
+  margin-left: 650px;
+  padding: 25px;
+  font-size: 25px;
+}
+
+#ohio{
+  padding-top: 50px;
+}
+
+footer{
+  clear: left;
+  padding-left: 25px;
+  padding-top: 50px;
+}
+
+a:hover{
+  color: black;
+}
+
+#sbar:hover{
+  zoom: 120%;
+}
+
+h1{
+  color: white;
+  margin-left: 400px;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+
+}
+
+.slider-frame{
+  overflow: hidden;
+  height: 200px;
+  width: 300px;
+  margin-left: 990px;
+  margin-top: 20px;
+}
+
+@-webkit-keyframes slide_animation{
+  0% {left:0px;}
+  10% {left:0px;}
+  20% {left:1200px;}
+  30% {left:1200px;}
+  40% {left:2400px;}
+  50% {left:2400px;}
+  60% {left:1200px;}
+  70% {left:1200px;}
+  80% {left:0px;}
+  90% {left:0px;}
+  100% {left:0px;}
+}
+
+.slide-images{
+  width: 3600px;
+  height: 800px;
+  margin: 0 0 0 -2400px;
+  position: relative;
+  -webkit-animation-name: slide_animation;
+  -webkit-animation-duration: 33s;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-play-state: running;
+}
+
+.img-container{
+  height: 800px;
+  width: 1200px;
+  position: relative;
+  float: left;
+}
+
+h2 {
+  margin-top: 40px;
+  margin-right: 200px;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  -webkit-text-stroke-width: .5px;
+  -webkit-text-stroke-color: rgb(0, 0, 0);
+  color: white;
+}
